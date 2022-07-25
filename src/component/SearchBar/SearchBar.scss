@@ -1,0 +1,35 @@
+.example {
+    width: 20%;
+    margin: 2rem auto;
+    position: relative;
+
+  input[type="text"] {
+    padding: 10px 60px 10px 10px;
+    font-size: 17px;
+    background: #BEDDFC;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    
+  }
+
+  button {
+    width: 18%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 10px;
+    background: #2196f3;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+
+    &:hover {
+      background: #0b7dda;
+    }
+  }
+}

@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  position: relative;
+  height: 95vh;
+
+  .app__title {
+    margin-top: 4rem;
+    font-size: 1.7rem;
+  }
+
+  .date {
+    font-size: 1.2rem;
+    padding: 0.2rem;
+    background: rgb(2, 1, 70);
+    width: 10rem;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .sun_img {
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    top: 2rem;
+    left: 0;
+  }
+
+  .example {
+    width: 20%;
+    margin: 2rem auto;
+    position: relative;
+
+    input[type="text"] {
+      padding: 10px;
+      font-size: 20px;
+      font-weight: 500;
+      background: #bbbcbd;
+      outline: none;
+      border: none;
+      border-radius: 8px;
+      width: 100%;
+    }
+
+    @media only screen and (max-width: 600px) {
+      width: 15rem;
+    }
+  }
+
+  .error {
+    padding: 1rem;
+    background: rgb(0, 0, 0);
+    width: 15rem;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    top: 5rem;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+
+    .error_msg{
+      // background: white;
+    }
+  }
+}
+
+.weather__container-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+
+  .CloudItem {
+    border: 1px solid black;
+  }
+}

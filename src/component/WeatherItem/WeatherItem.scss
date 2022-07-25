@@ -1,0 +1,33 @@
+.weather__container-top{
+    position: absolute;
+    width: 100%;
+    top: 10rem;
+
+    img{
+        width: 15rem;
+        height: 15rem;
+
+        @media only screen and (max-width: 600px) {
+            width: 8rem;
+            height: 8rem;
+            margin-top: 2rem;
+        
+        }
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 1.5rem;
+        margin: 5px;
+    }
+
+    
+
+  }
