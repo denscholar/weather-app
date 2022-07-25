@@ -1,4 +1,4 @@
-# Counter App
+# Weather App
 
 With respect to my 30-day challenge to build mini-projects/feature in react.js, this is my day-2 project; a simple **weather appllication** that provide current weather data for cities, and countries in any part of the world.
 
